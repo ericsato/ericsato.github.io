@@ -1,0 +1,23 @@
+body {
+  font-family: 'Quicksand', sans-serif !important;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.float-center {
+  margin:0 auto;
+  float:none;
+}
+
+.h-no-pad {
+  margin-top:-20px;
+}
+
+.h-no-bold {
+  font-weight:300;
+}
