@@ -36,13 +36,17 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
+.static-wrapper {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  background-image: url("../img/bg-eric.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 p {
   font-size: 14px;
   line-height: 22px; }
-
-.section a {
-  color: #ff6c7e;
-  text-decoration: none; }
 
 .text-center {
   text-align: center; }
@@ -154,17 +158,19 @@ p {
 .section {
   box-sizing: border-box;
   margin: 0;
-  width: 100%; }
+  position: relative;
+  width: 100%;
+  z-index: 1100; }
   .section a {
     color: #ff6c7e;
     text-decoration: none; }
 
 .section-dark {
-  background-color: #0D1825;
+  background-color: #0d1824;
   color: #fff; }
 
 .section-white {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
   color: #000; }
 
 .section-pad {

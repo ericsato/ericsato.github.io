@@ -1,7 +1,9 @@
 .section {
   box-sizing: border-box;
   margin:0;
+  position:relative;
   width:100%;
+  z-index:1100;
 
   a {
     color:$color-primary-red-full;
@@ -10,12 +12,13 @@
 }
 
 .section-dark {
-  background-color:$color-background-section;
+//  background-color:$color-background-section;
+  @include section-bg-color(1);
   color:#fff;
 }
 
 .section-white {
-  background-color:#fff;
+  background-color:rgba(255,255,255,.7);
   color:#000;
 }
 
@@ -23,11 +26,6 @@
   padding-top:50px;
   padding-bottom:50px;
 }
-
-#product-manager {
-
-}
-
 
 #contact {
   background-color:#fff;

@@ -2,7 +2,12 @@
 $primary-speed: .3s;
 $color-primary-red-full: rgba(255,108,126,1);
 $color-primary-red-zero: rgba(255,108,126,0);
-$color-background-section:#0D1825;
+$color-background-section:rgba(13, 24, 37, 1);
+$color-background-section-75:rgba(13, 24, 37, .7);
+
+@mixin section-bg-color($opacity) {
+  background-color:rgba(13,24,36,$opacity);
+}
 
 @mixin transition-speed($speed) {
   -webkit-transition:$speed;

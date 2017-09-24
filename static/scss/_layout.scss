@@ -5,14 +5,19 @@ body {
   box-sizing: border-box;
 }
 
+.static-wrapper {
+  position: fixed;
+  width:100%;
+  min-height:100%;
+  background-image:url("../img/bg-eric.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
 p {
   font-size:14px;
   line-height: 22px;
-}
-
-.section a {
-  color:$color-primary-red-full;
-  text-decoration: none;
 }
 
 .text-center {
