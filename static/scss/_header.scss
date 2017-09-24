@@ -26,7 +26,7 @@
       margin:0;
 
       li {
-        background-color:rgba(255,108,126,0);
+        background-color:$color-primary-red-zero;
         width:250px;
         height:30px;
         line-height:30px;
@@ -36,7 +36,7 @@
       }
 
       li:hover {
-        background-color:rgba(255,108,126,1);
+        background-color:$color-primary-red-full;
         color:#ffffff;
       }
     }

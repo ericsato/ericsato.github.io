@@ -1,5 +1,7 @@
 /** Transitions **/
 $primary-speed: .3s;
+$color-primary-red-full: rgba(255,108,126,1);
+$color-primary-red-zero: rgba(255,108,126,0);
 
 @mixin transition-speed($speed) {
   -webkit-transition:$speed;
@@ -10,7 +12,7 @@ $primary-speed: .3s;
 }
 
 [class*='col-'] {
-  @include transition-speed($primary-speed);	
+  @include transition-speed($primary-speed);
 }
 
 /** Spacers **/
@@ -27,7 +29,7 @@ $primary-speed: .3s;
 button {
   height: 50px;
   min-width:150px;
-  background-color:rgba(255,108,126,1);
+  background-color:$color-primary-red-full;
   border:1px solid #FF6C7E;
   box-sizing: border-box;
   font-size:12px;
@@ -35,7 +37,7 @@ button {
 }
 
 button:hover {
-  background-color:rgba(255,108,126,0);
+  background-color:$color-primary-red-zero;
   @include transition-speed($primary-speed);
   color:#000000;
 }
