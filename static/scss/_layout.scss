@@ -5,6 +5,16 @@ body {
   box-sizing: border-box;
 }
 
+p {
+  font-size:14px;
+  line-height: 22px;
+}
+
+.section a {
+  color:$color-primary-red-full;
+  text-decoration: none;
+}
+
 .text-center {
   text-align:center;
 }

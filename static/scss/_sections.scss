@@ -2,6 +2,21 @@
   box-sizing: border-box;
   margin:0;
   width:100%;
+
+  a {
+    color:$color-primary-red-full;
+    text-decoration: none;
+  }
+}
+
+.section-dark {
+  background-color:$color-background-section;
+  color:#fff;
+}
+
+.section-white {
+  background-color:#fff;
+  color:#000;
 }
 
 .section-pad {
@@ -9,35 +24,14 @@
   padding-bottom:50px;
 }
 
-#my-work {
-  background-color:#3b3b3b;
-  color:#fff;
+#product-manager {
 
-  .portfolio {
-
-    .portfolio-item {
-      height: 300px;
-      width:100%;
-      margin:0 auto;
-      border: 1px solid #ffffff;
-      @include transition-speed($primary-speed);
-    }
-
-    .portfolio-item:hover {
-      border: 1px solid rgba(255,108,126,.3);
-      background-color:rgba(255,108,126,.3);
-    }
-  }
 }
 
-#magician {
-  background-color:#ffffff;
-  color:#000000;
-}
 
 #contact {
-  background-color:#3b3b3b;
-  color:#fff;
+  background-color:#fff;
+  color:#000;
 }
 
 @media screen and (max-width: 767px) {

@@ -2,6 +2,7 @@
 $primary-speed: .3s;
 $color-primary-red-full: rgba(255,108,126,1);
 $color-primary-red-zero: rgba(255,108,126,0);
+$color-background-section:#0D1825;
 
 @mixin transition-speed($speed) {
   -webkit-transition:$speed;
@@ -40,4 +41,5 @@ button:hover {
   background-color:$color-primary-red-zero;
   @include transition-speed($primary-speed);
   color:#000000;
+  cursor:pointer;
 }

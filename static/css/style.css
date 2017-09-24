@@ -27,13 +27,22 @@ button:hover {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: #000000; }
+  color: #000000;
+  cursor: pointer; }
 
 body {
   font-family: 'Quicksand', sans-serif !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+p {
+  font-size: 14px;
+  line-height: 22px; }
+
+.section a {
+  color: #ff6c7e;
+  text-decoration: none; }
 
 .text-center {
   text-align: center; }
@@ -150,35 +159,25 @@ body {
   box-sizing: border-box;
   margin: 0;
   width: 100%; }
+  .section a {
+    color: #ff6c7e;
+    text-decoration: none; }
+
+.section-dark {
+  background-color: #0D1825;
+  color: #fff; }
+
+.section-white {
+  background-color: #fff;
+  color: #000; }
 
 .section-pad {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-#my-work {
-  background-color: #3b3b3b;
-  color: #fff; }
-  #my-work .portfolio .portfolio-item {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid #ffffff;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
-  #my-work .portfolio .portfolio-item:hover {
-    border: 1px solid rgba(255, 108, 126, 0.3);
-    background-color: rgba(255, 108, 126, 0.3); }
-
-#magician {
-  background-color: #ffffff;
-  color: #000000; }
-
 #contact {
-  background-color: #3b3b3b;
-  color: #fff; }
+  background-color: #fff;
+  color: #000; }
 
 @media screen and (max-width: 767px) {
   #my-work .portfolio .portfolio-item {
