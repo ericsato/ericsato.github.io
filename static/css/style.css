@@ -66,12 +66,9 @@ p {
   box-sizing: border-box; }
   .feature .intro {
     height: 200px;
-    top: 50%;
+    top: 35%;
     margin-top: -140px;
     position: relative; }
-    .feature .intro img {
-      height: 300px;
-      margin: 50px auto; }
   .feature .primary-nav a {
     text-decoration: none;
     color: #000000; }
@@ -155,6 +152,66 @@ p {
     margin: 100px auto; }
     .feature .intro img {
       height: 200px; } }
+#primary_nav_wrap {
+  float: right;
+  position: relative;
+  margin-top: 60px;
+  margin-right: 20px;
+  box-sizing: border-box; }
+
+#primary_nav_wrap ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0; }
+
+#primary_nav_wrap ul a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 15px; }
+
+#primary_nav_wrap ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0; }
+
+#primary_nav_wrap ul li:hover {
+  background: #f6f6f6; }
+  #primary_nav_wrap ul li:hover a {
+    color: #ff6c7e; }
+
+#primary_nav_wrap ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  padding: 0; }
+
+#primary_nav_wrap ul ul li {
+  float: none;
+  width: 200px; }
+
+#primary_nav_wrap ul ul a {
+  line-height: 120%;
+  padding: 10px 15px; }
+
+#primary_nav_wrap ul ul ul {
+  top: 0;
+  left: 100%; }
+
+#primary_nav_wrap ul li:hover > ul {
+  display: block; }
+
+li.menu-blog:hover {
+  cursor: no-drop; }
+
 .section {
   box-sizing: border-box;
   margin: 0;
