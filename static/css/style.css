@@ -97,9 +97,9 @@ p {
   box-sizing: border-box;
   position: fixed;
   width: 60px;
-  right: 50px;
+  right: 20px;
   height: 60px;
-  top: -50px;
+  top: -60px;
   -webkit-box-shadow: 0px 1px 2px 1px rgba(166, 166, 166, 0.4);
   -moz-box-shadow: 0px 1px 2px 1px rgba(166, 166, 166, 0.4);
   box-shadow: 0px 1px 2px 1px rgba(166, 166, 166, 0.4);
@@ -146,15 +146,11 @@ p {
 
 @media screen and (max-width: 767px) {
   .feature .intro {
-    text-align: center;
+    text-align: left;
     top: 0;
-    margin: 0 auto; }
+    margin: 100px auto; }
     .feature .intro img {
-      height: 200px; }
-  .feature .primary-nav ul.nav-list {
-    margin: 0 auto; }
-    .feature .primary-nav ul.nav-list li {
-      margin: 0 auto; } }
+      height: 200px; } }
 .section {
   box-sizing: border-box;
   margin: 0;
