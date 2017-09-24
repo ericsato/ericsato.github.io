@@ -97,7 +97,7 @@ p {
 
 .navbar {
   background-color: #ffffff;
-  z-index: 105;
+  z-index: 1205;
   box-sizing: border-box;
   position: fixed;
   width: 60px;
