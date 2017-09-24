@@ -194,6 +194,14 @@ p {
   background: #fff;
   padding: 0; }
 
+#primary_nav_wrap ul ul.right-side {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -119px;
+  background: #fff;
+  padding: 0; }
+
 #primary_nav_wrap ul ul li {
   float: none;
   width: 200px; }
