@@ -36,3 +36,14 @@ p {
 .h-no-bold {
   font-weight:300;
 }
+
+a.inline-red {
+  text-decoration:none;
+  color:#000;
+}
+
+a.inline-red:hover {
+  color:#fff;
+  cursor:pointer;
+  background-color:$color-primary-red-full;
+}

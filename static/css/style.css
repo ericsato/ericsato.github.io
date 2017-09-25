@@ -11,6 +11,10 @@
   height: 40px;
   width: 100%; }
 
+.spacer-20 {
+  height: 20px;
+  width: 100%; }
+
 button {
   height: 50px;
   min-width: 150px;
@@ -60,6 +64,15 @@ p {
 
 .h-no-bold {
   font-weight: 300; }
+
+a.inline-red {
+  text-decoration: none;
+  color: #000; }
+
+a.inline-red:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff6c7e; }
 
 .feature {
   height: 100vh;
@@ -244,6 +257,7 @@ li.menu-blog:hover {
 
 #contact {
   background-color: #fff;
+  min-height: 200px;
   color: #000; }
 
 @media screen and (max-width: 767px) {
