@@ -166,7 +166,7 @@ a.inline-red:hover {
     .feature .intro img {
       height: 200px; } }
 #primary_nav_wrap {
-  float: right;
+  float: left;
   position: relative;
   margin-top: 60px;
   margin-right: 20px;
