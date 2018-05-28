@@ -243,6 +243,9 @@ li.menu-blog:hover {
     color: #ff6c7e;
     text-decoration: none; }
 
+ul.normal {
+  list-style: circle; }
+
 .section-dark {
   background-color: #0d1824;
   color: #fff; }
